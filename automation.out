@@ -1,0 +1,38 @@
+2020-11-30 17:11:923 INFO  LoggerHelper:25 - Logger is configured
+2020-11-30 17:11:929 INFO  LoggerHelper:26 - Logger is configured
+2020-11-30 17:11:930 INFO  LoggerHelper:27 - Logger is configured
+2020-11-30 17:11:988 INFO  LoggerHelper:23 - Logger is configured
+2020-11-30 17:11:993 INFO  LoggerHelper:24 - Logger is configured
+2020-11-30 17:11:994 INFO  LoggerHelper:25 - Logger is configured
+2020-11-30 17:11:707 INFO  LoggerHelper:23 - Logger is configured
+2020-11-30 17:11:713 INFO  LoggerHelper:24 - Logger is configured
+2020-11-30 17:11:713 INFO  LoggerHelper:25 - Logger is configured
+2020-11-30 17:11:715 ERROR LoggerHelper:26 - Browser is not configured correctly
+2020-12-01 14:12:496 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-01 14:12:511 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-01 14:12:565 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-01 14:12:595 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-01 15:12:612 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-01 15:12:620 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-01 15:12:658 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-01 15:12:670 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-01 15:12:60 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-01 15:12:67 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-01 15:12:98 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-01 15:12:106 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-01 16:12:525 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-01 16:12:533 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-01 16:12:539 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 3  times.  
+2020-12-01 16:12:576 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-01 16:12:593 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-01 16:12:602 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 3  times.  
+2020-12-01 16:12:62 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-01 16:12:74 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-01 16:12:83 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 3  times.  
+2020-12-01 16:12:119 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-01 16:12:128 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-01 16:12:133 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 3  times.  
+2020-12-01 16:12:89 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-01 16:12:97 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-01 16:12:126 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-01 16:12:138 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  

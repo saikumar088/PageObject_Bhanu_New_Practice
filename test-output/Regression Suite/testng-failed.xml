@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="listner.RetryListner"/>
+  </listeners>
+  <test thread-count="5" name="Second Test(failed)">
+    <classes>
+      <class name="com.selenium.sai.framework.Test2">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.selenium.sai.framework.Test2 -->
+    </classes>
+  </test> <!-- Second Test(failed) -->
+  <test thread-count="5" name="Third Test(failed)">
+    <classes>
+      <class name="com.selenium.sai.framework.Test3">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.selenium.sai.framework.Test3 -->
+    </classes>
+  </test> <!-- Third Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
