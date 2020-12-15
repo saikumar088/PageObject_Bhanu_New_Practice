@@ -36,3 +36,18 @@
 2020-12-01 16:12:97 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
 2020-12-01 16:12:126 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
 2020-12-01 16:12:138 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-14 13:12:71 INFO  LoggerHelper:31 - Hi This is my first log
+2020-12-14 13:12:82 INFO  LoggerHelper:32 - Hi This is my second log
+2020-12-14 13:12:82 INFO  LoggerHelper:33 - Hi This is my second log
+2020-12-14 13:12:83 INFO  LoggerHelper:34 - Hi This is my second log
+2020-12-14 13:12:832 INFO  LoggerHelper:31 - Hi This is my first log
+2020-12-14 13:12:840 INFO  LoggerHelper:32 - Hi This is my second log
+2020-12-14 13:12:840 INFO  LoggerHelper:33 - Hi This is my second log
+2020-12-14 13:12:841 INFO  LoggerHelper:34 - Hi This is my second log
+2020-12-14 13:12:119 INFO  WaitHelper:29 - WaitHelper driver is intialized
+2020-12-14 13:12:122 INFO  WaitHelper:40 - Implicit wait has been set to:  10
+2020-12-15 12:12:320 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-15 12:12:362 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-15 12:12:395 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-15 12:12:405 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-15 12:12:414 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 3  times.  

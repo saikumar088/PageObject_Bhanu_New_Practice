@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Regression Suite">
 <listeners>
-<listener class-name="listner.RetryListner"></listener>
+<listener class-name="com.selenium.sai.framework.helper.listner.RetryListner"></listener>
 </listeners>
   <test name="First Test">
     <classes>
