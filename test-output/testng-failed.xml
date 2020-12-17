@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="com.selenium.sai.framework.helper.listner.RetryListner"/>
+    <listener class-name="com.selenium.sai.framework.helper.listner.ExtentListner"/>
+  </listeners>
+  <test thread-count="5" name="Second Test(failed)">
     <classes>
-      <class name="com.selenium.sai.framework.helper.excel.ExcelHelper">
+      <class name="com.selenium.sai.framework.Test2">
         <methods>
-          <include name="getExcelData"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- com.selenium.sai.framework.helper.excel.ExcelHelper -->
+      </class> <!-- com.selenium.sai.framework.Test2 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Second Test(failed) -->
+  <test thread-count="5" name="Third Test(failed)">
+    <classes>
+      <class name="com.selenium.sai.framework.Test3">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.selenium.sai.framework.Test3 -->
+    </classes>
+  </test> <!-- Third Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

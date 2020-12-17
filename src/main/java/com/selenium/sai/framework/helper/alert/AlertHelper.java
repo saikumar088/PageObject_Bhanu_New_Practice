@@ -46,7 +46,7 @@ public class AlertHelper {
         return true;
 		}
 		catch(NoAlertPresentException e) {
-			log.error(e.getCause());
+			log.info(e.getCause());
 			return false;
 		}
 	}

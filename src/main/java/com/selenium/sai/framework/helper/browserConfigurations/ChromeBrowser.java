@@ -37,11 +37,11 @@ public class ChromeBrowser {
 	public WebDriver getChromeDriver(ChromeOptions cap) {
 
 		if (System.getProperty("os.name").contains("Mac")){
-			System.setProperty("webdriver.chrome.driver", ResourceHelper.getResourcePath("src/main/resources/drivers/chromedriver"));
+			System.setProperty("webdriver.chrome.driver", ResourceHelper.getResourcePath("/src/main/resources/drivers/chromedriver"));
 			return new ChromeDriver(cap);
 		}
 		else if(System.getProperty("os.name").contains("Window")){
-			System.setProperty("webdriver.chrome.driver", ResourceHelper.getResourcePath("\\src\\main\\resources\\drivers\\chromedriver.exe"));
+			System.setProperty("webdriver.chrome.driver", ResourceHelper.getResourcePath("/src/main/resources/drivers/chromedriver.exe"));
 			return new ChromeDriver(cap);
 		}
 		else if(System.getProperty("os.name").contains("Linux")){
@@ -51,10 +51,10 @@ public class ChromeBrowser {
 		return null;
 	}
 	
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 		ChromeBrowser obj = new ChromeBrowser();
 		WebDriver driver = obj.getChromeDriver(obj.getChromeOptions());
 		driver.get("https://www.zomato.com/bangalore/punjabi-nawabi-hsr/order/LoqDdXx");
-	}
+	}*/
 
 }

@@ -1,4 +1,4 @@
-package wait;
+package com.selenium.sai.framework.helper.wait;
 
 import java.time.Duration;
 import java.util.NoSuchElementException;
@@ -16,7 +16,7 @@ import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.selenium.sai.framework.helper.logger.LoggerHelper;
-import com.selenium.sai.framework.helper.resource.ResourceHelper;
+
 
 public class WaitHelper {
 	
@@ -128,12 +128,12 @@ public void  waitForFrameToBeVisible(WebElement element,int timeoutInSeconds) {
  * 
  * This method will give fluentWait object
  * @param timeoutInSeconds
- * @param pollingEveryMiliSec
+ * @param pollingEveryMiliSec 500 milliseconds (default)
  * @return
  */
 
 private Wait<WebDriver> getFluentWait(int timeoutInSeconds, int pollingEveryMiliSec) {
-	
+	log.info("FluentWait is intialised.....");
 	Wait<WebDriver>  fwait= new FluentWait<WebDriver>(driver)
 			.withTimeout(Duration.ofSeconds(timeoutInSeconds))
 			.pollingEvery(Duration.ofMillis(pollingEveryMiliSec)).ignoring(NoSuchFrameException.class);	
@@ -142,7 +142,7 @@ private Wait<WebDriver> getFluentWait(int timeoutInSeconds, int pollingEveryMili
 
 /**
  * 
- * This method will wait for visibilityOf element
+ * This method will wait for visibilityOf element using fluent wait
  * @param element
  * @param timeoutInSeconds
  * @param pollingEveryMiliSec
@@ -150,35 +150,20 @@ private Wait<WebDriver> getFluentWait(int timeoutInSeconds, int pollingEveryMili
  */
 public WebElement waitForElement(WebElement element,int timeoutInSeconds, int pollingEveryMiliSec)
 {
+	log.info("waitng for (fluent)  :"+element.toString()+ " for : "+timeoutInSeconds+"      seconds"+"  polling every:  "+pollingEveryMiliSec);
 	Wait<WebDriver> fwait= getFluentWait(timeoutInSeconds,pollingEveryMiliSec);
 	fwait.until(ExpectedConditions.visibilityOf(element));
 	return element;
 }
 
 public void pageLoadTime(long time, TimeUnit unit) {
-	log.info("waiting for page to load for : "+unit);
+	log.info("waiting for page to load for : "+time+ "  seconds");
 	driver.manage().timeouts().pageLoadTimeout(time, unit);
+	log.info("Page is loaded ");
 }
 
 
 
-public static void main(String[] args) {
-	
-	String fullpath= ResourceHelper.getResourcePath("/src/main/resources/drivers/chromedriver.exe");
 
-	System.out.println(System.getProperty("user.dir"));
-    System.out.println(fullpath);
-	System.setProperty("webdriver.chrome.driver", fullpath);
-	WebDriver driver= new ChromeDriver();
-	//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-	//driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-
-	WaitHelper wait= new WaitHelper(driver);
-	wait.setImplicitWait(10, TimeUnit.SECONDS);
-	//wait.waitForElement(element, timeoutInSeconds, pollingEveryMiliSec)
-	driver.manage().window().maximize();
-	
-
-}
 
 }

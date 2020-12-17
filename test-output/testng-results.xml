@@ -1,17 +1,380 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="5" failed="1" ignored="0" total="9" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[TestRunner Test Started..]]>
+    </line>
+    <line>
+      <![CDATA[test Test Passed..]]>
+    </line>
+    <line>
+      <![CDATA[TestRunner Test Completed ..]]>
+    </line>
+    <line>
+      <![CDATA[TestRunner Test Started..]]>
+    </line>
+    <line>
+      <![CDATA[test2 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]]]>
+    </line>
+    <line>
+      <![CDATA[test2 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]]]>
+    </line>
+    <line>
+      <![CDATA[test2 Test Passed..]]>
+    </line>
+    <line>
+      <![CDATA[TestRunner Test Completed ..]]>
+    </line>
+    <line>
+      <![CDATA[TestRunner Test Started..]]>
+    </line>
+    <line>
+      <![CDATA[test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]]]>
+    </line>
+    <line>
+      <![CDATA[test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]]]>
+    </line>
+    <line>
+      <![CDATA[test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]]]>
+    </line>
+    <line>
+      <![CDATA[test3 Test Failed.. java.lang.AssertionError: expected [true] but found [false]]]>
+    </line>
+    <line>
+      <![CDATA[TestRunner Test Completed ..]]>
+    </line>
+    <line>
+      <![CDATA[TestRunner Test Started..]]>
+    </line>
+    <line>
+      <![CDATA[testScreen Test Passed..]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\ssk\eclipse-workspace_v2\pageObject_LiveProject\src\main\resources\screenShots\testScreen_17_12_2020_02_41_47.png'><img src='C:\Users\ssk\eclipse-workspace_v2\pageObject_LiveProject\src\main\resources\screenShots\testScreen_17_12_2020_02_41_47.png'height='100' width='100'/></a>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1050" started-at="2020-12-02T11:41:08Z" finished-at="2020-12-02T11:41:09Z">
+  <suite name="Regression Suite" duration-ms="9823" started-at="2020-12-17T09:11:38Z" finished-at="2020-12-17T09:11:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1050" started-at="2020-12-02T11:41:08Z" finished-at="2020-12-02T11:41:09Z">
-      <class name="com.selenium.sai.framework.helper.excel.ExcelHelperTest">
-        <test-method status="PASS" signature="updateExcelData()[pri:0, instance:com.selenium.sai.framework.helper.excel.ExcelHelperTest@2f112965]" name="updateExcelData" duration-ms="1010" started-at="2020-12-02T11:41:08Z" finished-at="2020-12-02T11:41:09Z">
+    <test name="First Test" duration-ms="201" started-at="2020-12-17T09:11:38Z" finished-at="2020-12-17T09:11:38Z">
+      <class name="com.selenium.sai.framework.Test1">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.selenium.sai.framework.Test1@57c758ac]" name="test" duration-ms="23" started-at="2020-12-17T09:11:38Z" finished-at="2020-12-17T09:11:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test Test Passed..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.selenium.sai.framework.Test1 -->
+    </test> <!-- First Test -->
+    <test name="Second Test" duration-ms="59" started-at="2020-12-17T09:11:38Z" finished-at="2020-12-17T09:11:38Z">
+      <class name="com.selenium.sai.framework.Test2">
+        <test-method status="SKIP" signature="test2()[pri:0, instance:com.selenium.sai.framework.Test2@31c88ec8]" name="test2" duration-ms="4" started-at="2020-12-17T09:11:38Z" finished-at="2020-12-17T09:11:38Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.selenium.sai.framework.Test2.test2(Test2.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[test2 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="SKIP" signature="test2()[pri:0, instance:com.selenium.sai.framework.Test2@31c88ec8]" name="test2" duration-ms="6" started-at="2020-12-17T09:11:38Z" finished-at="2020-12-17T09:11:38Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.selenium.sai.framework.Test2.test2(Test2.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[test2 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.selenium.sai.framework.Test2@31c88ec8]" name="test2" duration-ms="6" started-at="2020-12-17T09:11:38Z" finished-at="2020-12-17T09:11:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test2 Test Passed..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.selenium.sai.framework.Test2 -->
+    </test> <!-- Second Test -->
+    <test name="Third Test" duration-ms="56" started-at="2020-12-17T09:11:39Z" finished-at="2020-12-17T09:11:39Z">
+      <class name="com.selenium.sai.framework.Test3">
+        <test-method status="SKIP" signature="test3()[pri:0, instance:com.selenium.sai.framework.Test3@647e447]" name="test3" duration-ms="2" started-at="2020-12-17T09:11:39Z" finished-at="2020-12-17T09:11:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.selenium.sai.framework.Test3.test3(Test3.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="SKIP" signature="test3()[pri:0, instance:com.selenium.sai.framework.Test3@647e447]" name="test3" duration-ms="5" started-at="2020-12-17T09:11:39Z" finished-at="2020-12-17T09:11:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.selenium.sai.framework.Test3.test3(Test3.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="SKIP" signature="test3()[pri:0, instance:com.selenium.sai.framework.Test3@647e447]" name="test3" duration-ms="3" started-at="2020-12-17T09:11:39Z" finished-at="2020-12-17T09:11:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.selenium.sai.framework.Test3.test3(Test3.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="FAIL" signature="test3()[pri:0, instance:com.selenium.sai.framework.Test3@647e447]" name="test3" duration-ms="3" started-at="2020-12-17T09:11:39Z" finished-at="2020-12-17T09:11:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.selenium.sai.framework.Test3.test3(Test3.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[test3 Test Failed.. java.lang.AssertionError: expected [true] but found [false]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.selenium.sai.framework.Test3 -->
+    </test> <!-- Third Test -->
+    <test name="Testing" duration-ms="8917" started-at="2020-12-17T09:11:39Z" finished-at="2020-12-17T09:11:48Z">
+      <class name="com.selenium.sai.framework.testScripts.TestScreenShot">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.selenium.sai.framework.testScripts.TestScreenShot@20ce78ec]" name="beforeTest" is-config="true" duration-ms="6049" started-at="2020-12-17T09:11:39Z" finished-at="2020-12-17T09:11:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateExcelData -->
-      </class> <!-- com.selenium.sai.framework.helper.excel.ExcelHelperTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testScreen()[pri:0, instance:com.selenium.sai.framework.testScripts.TestScreenShot@20ce78ec]" name="testScreen" duration-ms="2406" started-at="2020-12-17T09:11:45Z" finished-at="2020-12-17T09:11:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testScreen Test Passed..]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\ssk\eclipse-workspace_v2\pageObject_LiveProject\src\main\resources\screenShots\testScreen_17_12_2020_02_41_47.png'><img src='C:\Users\ssk\eclipse-workspace_v2\pageObject_LiveProject\src\main\resources\screenShots\testScreen_17_12_2020_02_41_47.png'height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testScreen -->
+      </class> <!-- com.selenium.sai.framework.testScripts.TestScreenShot -->
+    </test> <!-- Testing -->
+  </suite> <!-- Regression Suite -->
 </testng-results>

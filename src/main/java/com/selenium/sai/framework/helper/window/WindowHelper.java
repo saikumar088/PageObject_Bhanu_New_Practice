@@ -91,5 +91,17 @@ public class WindowHelper {
 			driver.navigate().forward();
 		}
 		
+		/**
+		 * 
+		 * This method will refresh the current window
+		 * 
+		 * 
+		 */		
+		
+		public void reFresh() {				
+			log.info("Refreshing the window....");
+			driver.navigate().refresh();
+		}
+		
 
 }

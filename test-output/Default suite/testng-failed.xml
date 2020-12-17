@@ -3,11 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.sai.framework.helper.excel.ExcelHelper">
+      <class name="com.selenium.sai.framework.TestExtent">
         <methods>
-          <include name="getExcelData"/>
+          <include name="beforeClass"/>
+          <include name="beforeSutite"/>
+          <include name="beforeMethod"/>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.selenium.sai.framework.helper.excel.ExcelHelper -->
+      </class> <!-- com.selenium.sai.framework.TestExtent -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

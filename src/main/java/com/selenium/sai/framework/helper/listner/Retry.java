@@ -1,4 +1,4 @@
-package listner;
+package com.selenium.sai.framework.helper.listner;
 
 import org.apache.log4j.Logger;
 import org.testng.IRetryAnalyzer;
@@ -12,13 +12,20 @@ public class Retry implements IRetryAnalyzer {
 		
 	public boolean retry(ITestResult result) {
 		if(retryCount<maxRetryCount) {
-			log.info("Retrying test "+result.getName()+" with status "+getResultStatusName(result.getStatus())+ " for the "+(retryCount+1)+ "  times.  ");
+			log.info("Retrying test "+result.getName()+" with status "+getResultStatusName(result.getStatus())+ " for the " +(retryCount+1)+  "  times.  ");
 			retryCount++;
 			return true;
 		}
 		return false;
 	}
 	
+/**
+ * 
+ * 
+ * This method is for logging purpose for the method retry
+ * @param status
+ * @return
+ */
 	public String getResultStatusName(int status) {
 		
 		String ResultName=null;
