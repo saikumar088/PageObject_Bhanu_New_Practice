@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.selenium.sai.framework.helper.listner.RetryListner"></listener>
+<listener class-name="com.selenium.sai.framework.helper.listner.ExtentListner"></listener>
+</listeners>
+  <test name="Testing">
+    <classes>
+      <class name="com.selenium.sai.framework.testScripts.TestScreenShot"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

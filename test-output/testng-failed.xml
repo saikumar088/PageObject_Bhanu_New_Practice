@@ -3,6 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
   <listeners>
     <listener class-name="com.selenium.sai.framework.helper.listner.RetryListner"/>
+    <listener class-name="com.selenium.sai.framework.helper.listner.ExtentListner"/>
   </listeners>
   <test thread-count="5" name="Second Test(failed)">
     <classes>

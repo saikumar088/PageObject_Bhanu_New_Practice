@@ -1,6 +1,7 @@
 package com.selenium.sai.framework.helper.select;
 
 
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import org.apache.log4j.Logger;
@@ -68,6 +69,7 @@ public class DropDownHelper {
 		for(WebElement ele: elementList){
 			log.info(ele.getText());
 			valueList.add(ele.getText());
+			
 		}
 		return valueList;
 	}

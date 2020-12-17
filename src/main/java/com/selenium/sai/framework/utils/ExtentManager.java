@@ -17,8 +17,8 @@ public class ExtentManager {
 	
 	public static ExtentReports getInstance(){
 		if(extent == null){
-			String location = ResourceHelper.getResourcePath("src/main/resources/reports/extent.html");
-			return createInstance(location);
+			//String location = ResourceHelper.getResourcePath("src/main/resources/reports/extent.html");
+			return createInstance(".\\test-output\\extent.html");
 		}
 		else{
 			return extent;

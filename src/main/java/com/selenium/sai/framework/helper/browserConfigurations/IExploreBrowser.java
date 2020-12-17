@@ -2,6 +2,7 @@
 package com.selenium.sai.framework.helper.browserConfigurations;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.ElementScrollBehavior;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
@@ -28,8 +29,22 @@ public class IExploreBrowser {
 	}
 	
 	public WebDriver getIExplorerDriver(InternetExplorerOptions cap) {
-		System.setProperty("webdriver.ie.driver", ResourceHelper.getResourcePath("/src/main/resources/drivers/chromedriver"));
-		return new InternetExplorerDriver(cap);
+
+		
+		if (System.getProperty("os.name").contains("Mac")){
+			System.setProperty("webdriver.ie.driver", ResourceHelper.getResourcePath("/src/main/resources/drivers/IEDriverServer.exe"));
+			return new InternetExplorerDriver(cap);
+		}
+		else if(System.getProperty("os.name").contains("Window")){
+			System.setProperty("webdriver.ie.driver", ResourceHelper.getResourcePath("/src/main/resources/drivers/IEDriverServer.exe"));
+			return new InternetExplorerDriver(cap);
+		}
+		else if(System.getProperty("os.name").contains("Linux")){
+			System.setProperty("webdriver.ie.driver", "/usr/bin/chrome");
+			return new InternetExplorerDriver(cap);
+		}
+		return null;
 	}
+
 
 }

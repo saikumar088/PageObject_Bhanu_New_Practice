@@ -14,7 +14,6 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import com.selenium.sai.framework.helper.logger.LoggerHelper;
-import com.selenium.sai.framework.helper.resource.ResourceHelper;
 
 
 public class ExcelHelper {
@@ -38,7 +37,7 @@ public class ExcelHelper {
 			// count active columns in row
 			int totalColumn = sheet.getRow(0).getLastCellNum();
 
-			dataSets = new Object[totalRow][totalColumn-1];
+			dataSets = new Object[totalRow+1][totalColumn];
 
 			// Iterate Through each Rows one by one.
 			Iterator<Row> rowIterator = sheet.iterator();
@@ -52,10 +51,14 @@ public class ExcelHelper {
 				while (cellIterator.hasNext()) {
 					
 					Cell cell = cellIterator.next();
+					
+					/* Not Needed
 					if (cell.getStringCellValue().contains("Start")) {
 						i = 0;
 						break;
-					}
+					}*/
+					
+					
 					switch (cell.getCellType()) {
 					case STRING:
 						dataSets[i-1][j++] = cell.getStringCellValue();
@@ -66,7 +69,7 @@ public class ExcelHelper {
 					case BOOLEAN:
 						dataSets[i-1][j++] = cell.getBooleanCellValue();
 					case FORMULA:
-						dataSets[i-1][j++] = cell.getCellFormula();
+						dataSets[i-1][j++] = cell.getNumericCellValue();
 						break;
 
 					default:
@@ -75,6 +78,7 @@ public class ExcelHelper {
 					}
 				}
 			}
+			workbook.close();
 			return dataSets;
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -98,10 +102,12 @@ public class ExcelHelper {
 				if(ce.contains(testCaseName)){
 					r.createCell(1).setCellValue(testStatus);
 					file.close();
+					
 					log.info("result updated..");
 					FileOutputStream out = new FileOutputStream(new File(excelLocation));
 					workbook.write(out);
 					out.close();
+					workbook.close();
 					break;
 				}
 			}
@@ -111,14 +117,24 @@ public class ExcelHelper {
 		}
 	}
 	
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 	 ExcelHelper	 excelHelper = new ExcelHelper();
-	 String excelLocation = ResourceHelper.getResourcePath("src/main/resources/configfile/testData.xlsx");
-	 Object[][] data = excelHelper.getExcelData(excelLocation, "loginData");
-	 //System.out.println(data);
-//	 excelHelper.updateResult(excelLocation, "TestScripts", "Login", "PASS");
-//	 excelHelper.updateResult(excelLocation, "TestScripts", "Registration", "FAIL");
-//	 excelHelper.updateResult(excelLocation, "TestScripts", "Add to Cart", "PASS");
+	 String excelLocation = ResourceHelper.getResourcePath("/src/main/resources/configfile/testData.xlsx");
 	 
-	}
+	 Object[][] data = excelHelper.getExcelData(excelLocation, "TestData");
+	 for(int r=0;r<data.length;r++) {
+		 
+		 for(int c=0;c<data[r].length;c++) {
+			 
+			 System.out.print(data[r][c]+" \t");
+		 }
+		 System.out.println();
+	 }
+	 
+	 //System.out.println(data);
+	 excelHelper.updateResult(excelLocation, "TestResults", "Test1", "PASS");
+	 excelHelper.updateResult(excelLocation, "TestResults", "Test3", "FAIL");
+	 excelHelper.updateResult(excelLocation, "TestResults", "Test2", "PASS");
+	 
+	}*/
 }

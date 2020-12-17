@@ -34,10 +34,10 @@ public class FirefoxBrowser {
 	public WebDriver getFirefoxDriver(FirefoxOptions cap) {
 
 		if (System.getProperty("os.name").contains("Mac")) {
-			System.setProperty("webdriver.gecko.driver",ResourceHelper.getResourcePath("src/main/resources/drivers/geckodriver"));
+			System.setProperty("webdriver.gecko.driver",ResourceHelper.getResourcePath("/src/main/resources/drivers/geckodriver"));
 			return new FirefoxDriver(cap);
 		} else if (System.getProperty("os.name").contains("Window")) {
-			System.setProperty("webdriver.gecko.driver",ResourceHelper.getResourcePath("\\src\\main\\resources\\drivers\\geckodriver.exe"));
+			System.setProperty("webdriver.gecko.driver",ResourceHelper.getResourcePath("/src/main/resources/drivers/geckodriver.exe"));
 			return new FirefoxDriver(cap);
 		} else if (System.getProperty("os.name").contains("Linux")) {
 			System.setProperty("webdriver.gecko.driver", "/usr/bin/geckodriver");

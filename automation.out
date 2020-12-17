@@ -51,3 +51,164 @@
 2020-12-15 12:12:395 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
 2020-12-15 12:12:405 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
 2020-12-15 12:12:414 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 3  times.  
+2020-12-15 14:12:323 INFO  ExcelHelper:106 - result updated..
+2020-12-15 14:12:394 INFO  ExcelHelper:106 - result updated..
+2020-12-15 14:12:489 INFO  ExcelHelper:106 - result updated..
+2020-12-15 14:12:407 INFO  ExcelHelper:106 - result updated..
+2020-12-15 15:12:914 INFO  ExcelHelper:106 - result updated..
+2020-12-15 15:12:128 INFO  ExcelHelper:107 - result updated..
+2020-12-15 15:12:523 INFO  ExcelHelper:107 - result updated..
+2020-12-15 15:12:712 INFO  ExcelHelper:107 - result updated..
+2020-12-16 18:12:304 INFO  TestBase:124 - WebDriver is intialised...1415630650
+2020-12-16 18:12:328 INFO  WaitHelper:28 - WaitHelper driver is intialized
+2020-12-16 18:12:328 INFO  WaitHelper:39 - Implicit wait has been set to:  120
+2020-12-16 18:12:353 INFO  WaitHelper:160 - waiting for page to load for : 100  seconds
+2020-12-16 18:12:359 INFO  WaitHelper:162 - Page is loaded 
+2020-12-17 13:12:495 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-17 13:12:521 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-17 13:12:701 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-17 13:12:722 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-17 13:12:729 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 3  times.  
+2020-12-17 13:12:515 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-17 13:12:558 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-17 13:12:748 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-17 13:12:756 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-17 13:12:763 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 3  times.  
+2020-12-17 13:12:958 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-17 13:12:978 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-17 13:12:109 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-17 13:12:123 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-17 13:12:132 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 3  times.  
+2020-12-17 13:12:151 INFO  TestBase:139 - driver is null..
+2020-12-17 13:12:37 INFO  TestBase:124 - WebDriver is intialised...1705072168
+2020-12-17 13:12:41 INFO  WaitHelper:28 - WaitHelper driver is intialized
+2020-12-17 13:12:42 INFO  WaitHelper:39 - Implicit wait has been set to:  120
+2020-12-17 13:12:49 INFO  WaitHelper:160 - waiting for page to load for : 100  seconds
+2020-12-17 13:12:53 INFO  WaitHelper:162 - Page is loaded 
+2020-12-17 13:12:470 INFO  Retry:15 - Retrying test testScreen with status FAILURE for the 1  times.  
+2020-12-17 13:12:48 INFO  Retry:15 - Retrying test testScreen with status FAILURE for the 2  times.  
+2020-12-17 13:12:403 INFO  Retry:15 - Retrying test testScreen with status FAILURE for the 3  times.  
+2020-12-17 14:12:11 INFO  ExtentListner:66 - First Test Test Started..
+2020-12-17 14:12:59 INFO  ExtentListner:32 - test Test Passed..
+2020-12-17 14:12:427 INFO  ExtentListner:73 - First Test Test Completed ..
+2020-12-17 14:12:429 INFO  ExtentListner:66 - Second Test Test Started..
+2020-12-17 14:12:438 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-17 14:12:455 WARN  ExtentListner:54 - test2 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:471 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-17 14:12:475 WARN  ExtentListner:54 - test2 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:490 INFO  ExtentListner:32 - test2 Test Passed..
+2020-12-17 14:12:620 INFO  ExtentListner:73 - Second Test Test Completed ..
+2020-12-17 14:12:622 INFO  ExtentListner:66 - Third Test Test Started..
+2020-12-17 14:12:628 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-17 14:12:639 WARN  ExtentListner:54 - test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:645 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-17 14:12:650 WARN  ExtentListner:54 - test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:657 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 3  times.  
+2020-12-17 14:12:667 WARN  ExtentListner:54 - test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:687 ERROR ExtentListner:39 - test3 Test Failed.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:689 INFO  TestBase:139 - driver is null..
+2020-12-17 14:12:784 INFO  ExtentListner:73 - Third Test Test Completed ..
+2020-12-17 14:12:785 INFO  ExtentListner:66 - Testing Test Started..
+2020-12-17 14:12:573 INFO  TestBase:124 - WebDriver is intialised...934740803
+2020-12-17 14:12:575 INFO  WaitHelper:28 - WaitHelper driver is intialized
+2020-12-17 14:12:575 INFO  WaitHelper:39 - Implicit wait has been set to:  120
+2020-12-17 14:12:583 INFO  WaitHelper:160 - waiting for page to load for : 100  seconds
+2020-12-17 14:12:587 INFO  WaitHelper:162 - Page is loaded 
+2020-12-17 14:12:109 INFO  Retry:15 - Retrying test testScreen with status FAILURE for the 1  times.  
+2020-12-17 14:12:114 WARN  ExtentListner:54 - testScreen Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:758 INFO  Retry:15 - Retrying test testScreen with status FAILURE for the 2  times.  
+2020-12-17 14:12:761 WARN  ExtentListner:54 - testScreen Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:462 INFO  Retry:15 - Retrying test testScreen with status FAILURE for the 3  times.  
+2020-12-17 14:12:465 WARN  ExtentListner:54 - testScreen Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:755 ERROR ExtentListner:39 - testScreen Test Failed.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:263 INFO  ExtentListner:73 - Testing Test Completed ..
+2020-12-17 14:12:135 INFO  ExtentListner:72 - First Test Test Started..
+2020-12-17 14:12:186 INFO  ExtentListner:32 - test Test Passed..
+2020-12-17 14:12:186 INFO  TestBase:139 - driver is null..
+2020-12-17 14:12:544 INFO  ExtentListner:79 - First Test Test Completed ..
+2020-12-17 14:12:547 INFO  ExtentListner:72 - Second Test Test Started..
+2020-12-17 14:12:563 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-17 14:12:572 WARN  ExtentListner:60 - test2 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:598 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-17 14:12:604 WARN  ExtentListner:60 - test2 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:618 INFO  ExtentListner:32 - test2 Test Passed..
+2020-12-17 14:12:619 INFO  TestBase:139 - driver is null..
+2020-12-17 14:12:733 INFO  ExtentListner:79 - Second Test Test Completed ..
+2020-12-17 14:12:738 INFO  ExtentListner:72 - Third Test Test Started..
+2020-12-17 14:12:741 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-17 14:12:748 WARN  ExtentListner:60 - test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:753 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-17 14:12:758 WARN  ExtentListner:60 - test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:764 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 3  times.  
+2020-12-17 14:12:770 WARN  ExtentListner:60 - test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:776 ERROR ExtentListner:45 - test3 Test Failed.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:777 INFO  TestBase:139 - driver is null..
+2020-12-17 14:12:865 INFO  ExtentListner:79 - Third Test Test Completed ..
+2020-12-17 14:12:866 INFO  ExtentListner:72 - Testing Test Started..
+2020-12-17 14:12:920 INFO  TestBase:124 - WebDriver is intialised...812143047
+2020-12-17 14:12:922 INFO  WaitHelper:28 - WaitHelper driver is intialized
+2020-12-17 14:12:922 INFO  WaitHelper:39 - Implicit wait has been set to:  120
+2020-12-17 14:12:931 INFO  WaitHelper:160 - waiting for page to load for : 100  seconds
+2020-12-17 14:12:935 INFO  WaitHelper:162 - Page is loaded 
+2020-12-17 14:12:849 INFO  ExtentListner:32 - testScreen Test Passed..
+2020-12-17 14:12:359 INFO  ExtentListner:79 - Testing Test Completed ..
+2020-12-17 14:12:460 INFO  ExtentListner:72 - First Test Test Started..
+2020-12-17 14:12:523 INFO  ExtentListner:32 - test Test Passed..
+2020-12-17 14:12:524 INFO  TestBase:139 - driver is null..
+2020-12-17 14:12:884 INFO  ExtentListner:79 - First Test Test Completed ..
+2020-12-17 14:12:886 INFO  ExtentListner:72 - Second Test Test Started..
+2020-12-17 14:12:898 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-17 14:12:908 WARN  ExtentListner:60 - test2 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:919 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-17 14:12:929 WARN  ExtentListner:60 - test2 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:946 INFO  ExtentListner:32 - test2 Test Passed..
+2020-12-17 14:12:946 INFO  TestBase:139 - driver is null..
+2020-12-17 14:12:44 INFO  ExtentListner:79 - Second Test Test Completed ..
+2020-12-17 14:12:50 INFO  ExtentListner:72 - Third Test Test Started..
+2020-12-17 14:12:55 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-17 14:12:66 WARN  ExtentListner:60 - test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:81 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-17 14:12:90 WARN  ExtentListner:60 - test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:94 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 3  times.  
+2020-12-17 14:12:101 WARN  ExtentListner:60 - test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:113 ERROR ExtentListner:45 - test3 Test Failed.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:114 INFO  TestBase:139 - driver is null..
+2020-12-17 14:12:202 INFO  ExtentListner:79 - Third Test Test Completed ..
+2020-12-17 14:12:203 INFO  ExtentListner:72 - Testing Test Started..
+2020-12-17 14:12:239 INFO  TestBase:124 - WebDriver is intialised...812143047
+2020-12-17 14:12:243 INFO  WaitHelper:28 - WaitHelper driver is intialized
+2020-12-17 14:12:243 INFO  WaitHelper:39 - Implicit wait has been set to:  120
+2020-12-17 14:12:254 INFO  WaitHelper:160 - waiting for page to load for : 100  seconds
+2020-12-17 14:12:259 INFO  WaitHelper:162 - Page is loaded 
+2020-12-17 14:12:723 INFO  ExtentListner:32 - testScreen Test Passed..
+2020-12-17 14:12:271 INFO  ExtentListner:79 - Testing Test Completed ..
+2020-12-17 14:12:519 INFO  ExtentListner:72 - First Test Test Started..
+2020-12-17 14:12:568 INFO  ExtentListner:32 - test Test Passed..
+2020-12-17 14:12:569 INFO  TestBase:139 - driver is null..
+2020-12-17 14:12:920 INFO  ExtentListner:79 - First Test Test Completed ..
+2020-12-17 14:12:923 INFO  ExtentListner:72 - Second Test Test Started..
+2020-12-17 14:12:929 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 1  times.  
+2020-12-17 14:12:951 WARN  ExtentListner:60 - test2 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:959 INFO  Retry:15 - Retrying test test2 with status FAILURE for the 2  times.  
+2020-12-17 14:12:965 WARN  ExtentListner:60 - test2 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:980 INFO  ExtentListner:32 - test2 Test Passed..
+2020-12-17 14:12:981 INFO  TestBase:139 - driver is null..
+2020-12-17 14:12:121 INFO  ExtentListner:79 - Second Test Test Completed ..
+2020-12-17 14:12:125 INFO  ExtentListner:72 - Third Test Test Started..
+2020-12-17 14:12:129 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 1  times.  
+2020-12-17 14:12:140 WARN  ExtentListner:60 - test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:148 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 2  times.  
+2020-12-17 14:12:155 WARN  ExtentListner:60 - test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:160 INFO  Retry:15 - Retrying test test3 with status FAILURE for the 3  times.  
+2020-12-17 14:12:165 WARN  ExtentListner:60 - test3 Test Skipped.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:174 ERROR ExtentListner:45 - test3 Test Failed.. java.lang.AssertionError: expected [true] but found [false]
+2020-12-17 14:12:177 INFO  TestBase:139 - driver is null..
+2020-12-17 14:12:279 INFO  ExtentListner:79 - Third Test Test Completed ..
+2020-12-17 14:12:281 INFO  ExtentListner:72 - Testing Test Started..
+2020-12-17 14:12:184 INFO  TestBase:124 - WebDriver is intialised...812143047
+2020-12-17 14:12:187 INFO  WaitHelper:28 - WaitHelper driver is intialized
+2020-12-17 14:12:187 INFO  WaitHelper:39 - Implicit wait has been set to:  120
+2020-12-17 14:12:196 INFO  WaitHelper:160 - waiting for page to load for : 100  seconds
+2020-12-17 14:12:202 INFO  WaitHelper:162 - Page is loaded 
+2020-12-17 14:12:738 INFO  ExtentListner:32 - testScreen Test Passed..
+2020-12-17 14:12:356 INFO  ExtentListner:79 - Testing Test Completed ..

@@ -3,6 +3,7 @@
 <suite name="Regression Suite">
 <listeners>
 <listener class-name="com.selenium.sai.framework.helper.listner.RetryListner"></listener>
+<listener class-name="com.selenium.sai.framework.helper.listner.ExtentListner"></listener>
 </listeners>
   <test name="First Test">
     <classes>
@@ -19,4 +20,10 @@
       <class name="com.selenium.sai.framework.Test3"/>
     </classes>
      </test> <!-- Test -->
+     
+       <test name="Testing">
+    <classes>
+      <class name="com.selenium.sai.framework.testScripts.TestScreenShot"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
